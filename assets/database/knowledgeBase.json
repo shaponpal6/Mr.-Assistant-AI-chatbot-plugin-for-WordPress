@@ -1,0 +1,255 @@
+{
+  "-M6isTtEB3NX3vLBwBjJ":{
+    "act":"Default Suggestion",
+    "ans":{
+      "ans0":{
+        "a1":"As a Computer Software I'd say I'm feeling pretty good and you?",
+        "a2":"Simply incredible!",
+        "a3":"As an assisting machine, I have no feeling! How about you?"
+      }
+    },
+    "key":"-M6isTtEB3NX3vLBwBjJ",
+    "que":"how are you",
+    "status":"2",
+    "tag":"how you feeling",
+    "time":1593849466675,
+    "type":"kb"
+  },
+  "-M6iubfSceEXKT1FIe0q":{
+    "ans":{
+      "ans0":{
+        "a1":"Good."
+      }
+    },
+    "key":"-M6iubfSceEXKT1FIe0q",
+    "que":"i am fine",
+    "rel":[
+      {
+        "key":"-M8ZWAIm6FPqZQT_KBOF",
+        "val":"category"
+      },
+      {
+        "key":"-MR1KB1General1C3",
+        "val":"help"
+      },
+      {
+        "key":"-MR1KB1General1C5",
+        "val":"menu"
+      }
+    ],
+    "status":"2",
+    "tag":"i am also fine",
+    "time":1593845460544
+  },
+  "-M6k61kvVDCoOoLYLBAr":{
+    "ans":{
+      "ans1":{
+        "a1":"You're certainly very welcome indeed.",
+        "a2":"Always a pleasure",
+        "a3":"You're very welcome",
+        "a4":"That makes me so happy! You're most welcome."
+      }
+    },
+    "key":"-M6k61kvVDCoOoLYLBAr",
+    "que":"thank you",
+    "status":"2",
+    "tag":"thank you so much",
+    "time":1593845864978
+  },
+  "-M6k7wvNvzCNCPvqZH2_":{
+    "ans":{
+      "ans0":{
+        "a1":"See you soon!",
+        "a2":"Until we meet again!",
+        "a3":"Goodbye, and stay well!"
+      }
+    },
+    "key":"-M6k7wvNvzCNCPvqZH2_",
+    "que":"bye",
+    "status":"2",
+    "tag":"Goodbye",
+    "time":1593850370750
+  },
+  "-M6k8ERYGrMaRKhPlHtH":{
+    "act":"how can you help",
+    "ans":{
+      "ans0":{
+        "a1":"My Name is Mr. Assistant, hey!!",
+        "a2":"Mr Assistant's the name, helping you is my game!",
+        "a3":"My Name: Mr Assistant. My mission: to assist you.",
+        "a4":"My Name: Mr Assistant. Occupation: helping you."
+      }
+    },
+    "key":"-M6k8ERYGrMaRKhPlHtH",
+    "que":"what's your name",
+    "status":"2",
+    "tag":"tell me your name",
+    "time":1593850143028,
+    "type":"kb"
+  },
+  "-M6k8sK0JUwlu-5lJv3p":{
+    "ans":{
+      "ans1":{
+        "a1":"Awww, I'm just doing my job!!",
+        "a2":"Dear diary: today i help someone",
+        "a3":"Anytime",
+        "a4":"Oh WOW! happy to help you."
+      }
+    },
+    "key":"-M6k8sK0JUwlu-5lJv3p",
+    "que":"you are so helpful",
+    "status":"2",
+    "tag":"This is helpful",
+    "time":1593847106429
+  },
+  "-M6kADHkjibReWy3QZDb":{
+    "act":"Default Suggestion",
+    "ans":{
+      "ans0":{
+        "a1":"I can assist you in search and Live chat with our Operators."
+      }
+    },
+    "key":"-M6kADHkjibReWy3QZDb",
+    "que":"how can you help",
+    "status":"2",
+    "tag":"how can you guide",
+    "time":1593781045813,
+    "type":"kb"
+  },
+  "-M6nt7uQXqHRVokJovIo":{
+    "ans":{
+      "ans0":{
+        "a1":"Happy to help!",
+        "a2":"Always a pleasure",
+        "a3":"Anytime"
+      },
+      "ans1":{
+        "a1":"Is there anything else I can help?"
+      }
+    },
+    "key":"-M6nt7uQXqHRVokJovIo",
+    "que":"Thanks for your help",
+    "status":"2",
+    "tag":"Thanks for being so helpful",
+    "time":1593847505016
+  },
+  "-M8VqIVFcPQ0m7QE7pIs":{
+    "key":"-M8VqIVFcPQ0m7QE7pIs",
+    "que":"Default Suggestion",
+    "rel":[
+      {
+        "key":"-MR1KB1General1C3",
+        "val":"help"
+      },
+      {
+        "key":"-MR1KB1General1C5",
+        "val":"menu"
+      },
+      {
+        "key":"-MBNt-NfQuH8xINy-2NK",
+        "val":"Category"
+      }
+    ],
+    "status":"1",
+    "tag":"",
+    "time":1593850525403
+  },
+  "-M8ZU7NPNgMZ4DE3vpah":{
+    "act":"what's your name",
+    "key":"-M8ZU7NPNgMZ4DE3vpah",
+    "que":"Mr. Assistant",
+    "status":"2",
+    "tag":"Virtual Assistant",
+    "time":1593780978651,
+    "type":"kb"
+  },
+  "-MBJklFw7WCQZ2OzbWNQ":{
+    "act":"Default Suggestion",
+    "ans":{
+      "ans0":{
+        "a1":"Hello! How can I help you?",
+        "a2":"Hey yourself, how may I be of assistance?",
+        "a3":"Hi there! How can I help you?",
+        "a4":"Hello, what can I do for you?",
+        "a5":"Hey! How can I help you?"
+      }
+    },
+    "key":"-MBJklFw7WCQZ2OzbWNQ",
+    "que":"hi",
+    "status":"2",
+    "tag":"Hello",
+    "time":1593850740781,
+    "type":"kb"
+  },
+  "-MBNt-NfQuH8xINy-2NK":{
+    "act":"Category",
+    "key":"-MBNt-NfQuH8xINy-2NK",
+    "que":"Category",
+    "status":"2",
+    "tag":"Categories",
+    "time":1593850493779,
+    "type":"search"
+  },
+  "-MR1KB1General1C2":{
+    "act":"Default Suggestion",
+    "ans":{
+      "ans0":{
+        "a1":"Sorry, I didn't understand.",
+        "a2":"Sorry, I didn't find anything.",
+        "a3":"Sorry, no result found."
+      },
+      "ans1":{
+        "a1":"Here have some suggestions.",
+        "a2":"Here have some guide that can help you."
+      }
+    },
+    "key":"-MR1KB1General1C2",
+    "que":"_notFound",
+    "status":"1",
+    "tag":"",
+    "time":1593852774534,
+    "type":"kb"
+  },
+  "-MR1KB1General1C3":{
+    "ans":"",
+    "key":"-MR1KB1General1C3",
+    "que":"help",
+    "status":"2",
+    "tag":"help, me",
+    "time":1585226042395,
+    "type":"help"
+  },
+  "-MR1KB1General1C5":{
+    "key":"-MR1KB1General1C5",
+    "que":"menu",
+    "status":"2",
+    "tag":"open menu",
+    "time":1593780893942,
+    "type":"menu"
+  },
+  "-MR1KB1General1C6":{
+    "key":"-MR1KB1General1C6",
+    "que":"feedback",
+    "status":"2",
+    "tag":"give you good feedback",
+    "time":1593780903972,
+    "type":"rate"
+  },
+  "-MR1KB1General1C8":{
+    "act":"Default Suggestion",
+    "ans":{
+      "ans0":{
+        "a1":"Welcome to our Site."
+      },
+      "ans1":{
+        "a1":"I can assist you in search and Live chat with our Operators."
+      }
+    },
+    "key":"-MR1KB1General1C8",
+    "que":"_preChat",
+    "status":"1",
+    "tag":"",
+    "time":1593844997023,
+    "type":"kb"
+  }
+}

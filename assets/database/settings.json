@@ -1,0 +1,100 @@
+{
+  "menus": {
+    "-M6kkSmdfvwBGc0GOIXB":{
+      "actionContext":"",
+      "menuAction":"contextAction",
+      "menuContext":"<header>Current Coupon</header>\n<section>\n    <p>Dear Users, Thank you for visiting our site.</p>\n    <p>Coupon Code: </p>\n    <small>Note: We hold the right to change its campaign offers at any time without any obligatory and prior notification.</small>\n</section>\n<footer>Thank You</footer>",
+      "menuID":"-M6kkSmdfvwBGc0GOIXB",
+      "menuName":"Get Coupon ",
+      "menuUrl":"",
+      "status":1
+    },
+    "-MR1MENU1GeneralC1":{
+      "actionContext":"",
+      "menuAction":"help",
+      "menuContext":"",
+      "menuID":"-MR1MENU1GeneralC1",
+      "menuName":"Help",
+      "menuUrl":"",
+      "status":1
+    },
+    "-MR1MENU1GeneralC2":{
+      "actionContext":"",
+      "menuAction":"contextAction",
+      "menuContext":"<header>Special Offer</header>\n<section>\n    <p>Dear Users, Thank you for visiting our site.</p>\n    <p>Hot Deals!! .... Collect Your Coupon Now.</p>\n    <small>Note: We hold the right to change its campaign offers at any time without any obligatory and prior notification.</small>\n</section>\n<footer>Thank You</footer>",
+      "menuID":"-MR1MENU1GeneralC2",
+      "menuName":"My Offer",
+      "menuUrl":"",
+      "status":1
+    },
+    "-MR1MENU1GeneralC3":{
+      "actionContext":"",
+      "menuAction":"contextAction",
+      "menuContext":"<header>Important Notice</header>\n<section>\n    <p>Dear Users, Thank you for visiting our site.</p>\n    <p>We are developing to better serve you.</p>\n</section>\n<footer>Thank You</footer>",
+      "menuID":"-MR1MENU1GeneralC3",
+      "menuName":"Notice",
+      "menuUrl":"",
+      "status":1
+    }
+  },
+  "settings": {
+    "configuration":{
+      "a_author":1,
+      "a_goto":1,
+      "a_page":1,
+      "a_post":1,
+      "a_product":1,
+      "a_tag":1,
+      "actionBot":1,
+      "assistantSupport":1,
+      "chatWay":"chatWithVisitors",
+      "chatWithVisitor":1,
+      "chatWithVisitorWay":"anonymousGuidAuth",
+      "kbBot":1,
+      "offlineTracking":1,
+      "removeChatHistory":"7",
+      "removeVisitors":"7",
+      "sb_power":"4",
+      "siteBot":1,
+      "notFound": "system",
+      "uniqueAnonymous":1,
+      "wooBot":0,
+      "wooCart":0,
+      "woo_currency":"$"
+    }
+  },
+  "help": {
+    "avatar":"",
+    "helpContent":"<header>Hello!! I'm Mr. Assistant</header>\n<section>\n    <ul>\n        <li>Search your content here</li>\n        <li>Search & browse desire page/post\n            <small>Use \"/\" before search or Use \"go\" after search</small>\n        </li>\n        <li>Quick search -\n            <small>use \"product/post/page/{other topic}\" and search text</small>\n        </li>\n        <li>Quick Keyword search -\n            <small>use \"#keyword\" and search text</small>\n        </li>\n        <li>Quick search by author-\n            <small>use \"@author-name\" and search text</small>\n        </li>\n        <li>Click on Bot menu to Enable/Disable BOT</li>\n        <li>Click on \"View Details\" to see details content</li>\n        <li>Type - help, cart, menu, feedback, more..</li>\n    </ul>\n</section>\n<footer>Thank You</footer>",
+    "helpTitle":"Help",
+    "name":"",
+    "status":0,
+    "type":"bot"
+  },
+  "translation": {
+    "dashboard": {
+      "_txd4": "Visitors List"
+    },
+    "console": {
+      "_txc1": "Dashboard"
+    },
+    "indexing": {
+      "_txi1": "Index Table"
+    },
+    "knowledge": {
+      "_txk2": "Search & Add Knowledge Base"
+    },
+    "history": {
+      "_txh1": "Chat History"
+    },
+    "settings": {
+      "_txs1": "Settings & Configuration"
+    },
+    "profile": {
+      "_txp1": "My Account"
+    },
+    "chatWidget": {
+      "_txcwh1": "Chat With"
+    }
+  }
+}

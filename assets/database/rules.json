@@ -1,0 +1,91 @@
+{
+  "rules": {
+    ".read": "(root.child('users').child(auth.uid).child('access').val() === true || root.child('clients').child(auth.uid).child('info/uid').val() === auth.uid)",
+    ".write": "auth != null && root.child('users').child(auth.uid).child('access').val()===true",
+    "clients": {
+      "$uid": {
+        ".write": "$uid === auth.uid || root.child('users').child(auth.uid).child('access').val()===true"
+      },
+      ".indexOn": [
+        "info/lastSeen",
+        "info/unread",
+        "info/lastMessage",
+        "info/currentPage"
+      ]
+    },
+    "livechat": {
+      "$uid": {
+        ".write": "$uid === auth.uid || root.child('users').child(auth.uid).child('access').val()===true"
+      },
+      ".indexOn": [
+        "text",
+        "time",
+        "name",
+        "type"
+      ]
+    },
+    "browses": {
+      "$uid": {
+        ".write": "$uid === auth.uid || root.child('users').child(auth.uid).child('access').val() === true"
+      },
+      ".indexOn": [
+        "page"
+      ]
+    },
+    "training":{
+      ".write":"root.child('clients').child(auth.uid).child('info/uid').val() === auth.uid || root.child('users').child(auth.uid).child('access').val() === true",
+      ".indexOn":[
+        "uid", "time"
+      ]
+    },
+    "translation": {
+      ".read": true,
+      ".write": "root.child('users').child(auth.uid).child('access').val() === true",
+      "chatWidget": {
+        ".read": true,
+        ".write": "auth != null"
+      }
+    },
+    "knowledgeBase": {
+      ".read": true,
+      ".write": "auth != null && root.child('users').child(auth.uid).child('access').val()===true",
+      ".indexOn": [
+        "que",
+        "tag",
+        "time"
+      ]
+    },
+    "visitors": {
+      ".read": true,
+      ".write": true,
+      ".indexOn": [
+        "lastSeen",
+        "currentPage"
+      ]
+    },
+    "actions": {
+      ".read": true,
+      ".write": true
+    },
+    "help": {
+      ".read": true
+    },
+    "menus": {
+      ".read": true
+    },
+    "mr-assistant": {
+      ".read": true
+    },
+    "settings": {
+      ".read": true
+    },
+    "users": {
+      ".write": "auth != null && auth.email_verified === true",
+      ".read": "auth.email_verified === true",
+      ".indexOn": [
+        "lastSeen",
+        "lastSignInTime"
+      ]
+    }
+  }
+}

@@ -1,0 +1,590 @@
+# Mr. Assistant is an asynchronous, event-driven and single thread vanilla JavaScript Artificial Intelligence Live Chat Bot.
+# Copyright (C) 2020 Mr. Assistant
+# SHAPON PAL <helpmrassistant@gmail.com>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Mr. Assistant\n"
+"Report-Msgid-Bugs-To: SHAPON PAL <helpmrassistant@gmail.com>\n"
+"POT-Creation-Date: 2020-07-09 03:52+0600\n"
+"PO-Revision-Date: 2020-07-09 03:52+0600\n"
+"Language-Team: SHAPON PAL <helpmrassistant@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Eazy Po 0.9.5.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Last-Translator: \n"
+"Language: en\n" 
+
+#: mr-assistant.php:93
+msgid "Setting"
+msgstr ""
+
+#: core/mr-assistant-admin.php:60 core/mr-assistant-admin.php:61
+msgid "Chat Control Panel"
+msgstr ""
+
+#: core/mr-assistant-admin.php:70 core/mr-assistant-admin.php:71
+msgid "Chat Configuration"
+msgstr ""
+
+#: core/mr-assistant-db-config.php:33
+msgid "How to set up Realtime Database"
+msgstr ""
+
+#: core/mr-assistant-db-config.php:57
+msgid "Copy this security rules and paste it in Firebase security rules field."
+msgstr ""
+
+#: core/mr-assistant-db-config.php:76
+#, php-format
+msgid "Create your new %s project"
+msgstr ""
+
+#: core/mr-assistant-db-config.php:77
+#, php-format
+msgid "Click Settings %s and select Project Settings Option"
+msgstr ""
+
+#: core/mr-assistant-db-config.php:78
+msgid ""
+"Copy Project ID and Web API key then paste to related Project ID* and Web API key* fields accordingly."
+msgstr ""
+
+#: core/mr-assistant-db-config.php:79
+msgid ""
+"Now Go to the Authentication Section and select the Sign-in Methods tab."
+msgstr ""
+
+#: core/mr-assistant-db-config.php:80
+msgid "Here you need to enable 2 Sign-in Methods – Google and Anonymous methods."
+msgstr ""
+
+#: core/mr-assistant-db-config.php:81
+msgid ""
+"Then find authorized domains on the same page below and add your Domain name here."
+msgstr ""
+
+#: core/mr-assistant-db-config.php:82
+msgid ""
+"Now click the Database menu and create `Realtime Database` of your Firebase "
+"project."
+msgstr ""
+
+#: core/mr-assistant-db-config.php:83
+#, php-format
+msgid "Go to the %s tab and replace this Security Rules from attached below."
+msgstr ""
+
+#: core/mr-assistant-db-config.php:83
+msgid "Database Rules"
+msgstr ""
+
+#: core/mr-assistant-db-config.php:84
+msgid ""
+"Almost Done!! Now go to your chat control panel and sign-in with your Google Account."
+msgstr ""
+
+#: core/mr-assistant-options-tree.php:371
+msgid "Choose File"
+msgstr ""
+
+#: core/mr-assistant-settings.php:37
+msgid "General"
+msgstr ""
+
+#: core/mr-assistant-settings.php:41
+msgid "Appearance"
+msgstr ""
+
+#: core/mr-assistant-settings.php:45
+msgid "Admin Style"
+msgstr ""
+
+#: core/mr-assistant-settings.php:49
+msgid "Response"
+msgstr ""
+
+#: core/mr-assistant-settings.php:53
+msgid "Template"
+msgstr ""
+
+#: core/mr-assistant-settings.php:57
+msgid "Realtime Database"
+msgstr ""
+
+#: core/mr-assistant-settings.php:61
+msgid "Virtual Assistant"
+msgstr ""
+
+#: core/mr-assistant-settings.php:65
+msgid "Advanced"
+msgstr ""
+
+#: core/mr-assistant-settings.php:91
+msgid "Chat Bot Status"
+msgstr ""
+
+#: core/mr-assistant-settings.php:92
+msgid "This is on/off option for chat widget on the public side only."
+msgstr ""
+
+#: core/mr-assistant-settings.php:103
+msgid "Translation Mode"
+msgstr ""
+
+#: core/mr-assistant-settings.php:104
+msgid ""
+"This option will Enable or Disable Chat Control Panel Auto Translation Mode."
+msgstr ""
+
+#: core/mr-assistant-settings.php:104
+msgid ""
+"Note: It will overwrite some events in the Chat Control Panel. So After your "
+"Translation Completed, You should disable Translation Mode for better "
+"Experience."
+msgstr ""
+
+#: core/mr-assistant-settings.php:115
+msgid "Application Key"
+msgstr ""
+
+#: core/mr-assistant-settings.php:116
+msgid "Get your Application key"
+msgstr ""
+
+#: core/mr-assistant-settings.php:116
+msgid ""
+"The Application key is required to activate the plugin and get free updates."
+msgstr ""
+
+#: core/mr-assistant-settings.php:125
+msgid "Choose Theme"
+msgstr ""
+
+#: core/mr-assistant-settings.php:126
+msgid "Choose your favourite theme type."
+msgstr ""
+
+#: core/mr-assistant-settings.php:126 core/mr-assistant-settings.php:260
+msgid ""
+"Note: you need to choose theme type as use color to use your custom color as "
+"theme. Default: use theme."
+msgstr ""
+
+#: core/mr-assistant-settings.php:138
+msgid "Choose a theme for chat widget."
+msgstr ""
+
+#: core/mr-assistant-settings.php:147
+msgid "Choose custom theme color for chat widget."
+msgstr ""
+
+#: core/mr-assistant-settings.php:154
+msgid "Chat ICON"
+msgstr ""
+
+#: core/mr-assistant-settings.php:155
+msgid ""
+"Choose a chat icon. You can add an image URL from media library or different "
+"sources."
+msgstr ""
+
+#: core/mr-assistant-settings.php:166
+msgid "Set chat image width 30px to 100px"
+msgstr ""
+
+#: core/mr-assistant-settings.php:177
+msgid "Set chat image height 30px to 100px"
+msgstr ""
+
+#: core/mr-assistant-settings.php:187
+msgid "Chat Widget Background"
+msgstr ""
+
+#: core/mr-assistant-settings.php:188
+msgid ""
+"Choose chat widget background image that will appear in public facing chat "
+"widget. You can add an image URL from media library or different sources."
+msgstr ""
+
+#: core/mr-assistant-settings.php:199
+msgid "Admin Message Color"
+msgstr ""
+
+#: core/mr-assistant-settings.php:200
+msgid "Add admin messages color appear in chat widget."
+msgstr ""
+
+#: core/mr-assistant-settings.php:207
+msgid "Admin Message Container Background"
+msgstr ""
+
+#: core/mr-assistant-settings.php:208
+msgid "Add admin messages container background color appear in chat widget."
+msgstr ""
+
+#: core/mr-assistant-settings.php:215
+msgid "Clients Message Color"
+msgstr ""
+
+#: core/mr-assistant-settings.php:216
+msgid "Add client messages color appear in chat widget."
+msgstr ""
+
+#: core/mr-assistant-settings.php:223
+msgid "Name and Date Color"
+msgstr ""
+
+#: core/mr-assistant-settings.php:224
+msgid "Add name and date color appear in chat widget."
+msgstr ""
+
+#: core/mr-assistant-settings.php:232
+msgid "Custom Style"
+msgstr ""
+
+#: core/mr-assistant-settings.php:233
+msgid "Add Custom CSS for public facing Chat widget"
+msgstr ""
+
+#: core/mr-assistant-settings.php:241
+msgid "Add Custom Font for Chat widget"
+msgstr ""
+
+#: core/mr-assistant-settings.php:249 core/mr-assistant-settings.php:338
+msgid "Add font name"
+msgstr ""
+
+#: core/mr-assistant-settings.php:259
+msgid "Choose Admin Theme"
+msgstr ""
+
+#: core/mr-assistant-settings.php:260
+msgid "Choose your favourite theme type for admin panel."
+msgstr ""
+
+#: core/mr-assistant-settings.php:272
+msgid "Choose a theme for admin chat control panel."
+msgstr ""
+
+#: core/mr-assistant-settings.php:281
+msgid "Choose custom theme color for admin chat control panel."
+msgstr ""
+
+#: core/mr-assistant-settings.php:289
+msgid "Menu Background"
+msgstr ""
+
+#: core/mr-assistant-settings.php:290
+msgid "Add menu background color for admin chat control panel."
+msgstr ""
+
+#: core/mr-assistant-settings.php:297
+msgid "Menu Font Color"
+msgstr ""
+
+#: core/mr-assistant-settings.php:298
+msgid "Add menu font color for admin chat control panel."
+msgstr ""
+
+#: core/mr-assistant-settings.php:305
+msgid "Panel Background Color"
+msgstr ""
+
+#: core/mr-assistant-settings.php:306
+msgid "Add panel header background color for admin chat control panel."
+msgstr ""
+
+#: core/mr-assistant-settings.php:313
+msgid "Overview Background Color"
+msgstr ""
+
+#: core/mr-assistant-settings.php:314
+msgid "Add Overview Background Color for admin Chat control panel."
+msgstr ""
+
+#: core/mr-assistant-settings.php:321
+msgid "CUSTOM STYLE FOR ADMIN CONTROL PANEL"
+msgstr ""
+
+#: core/mr-assistant-settings.php:322
+msgid "Add Custom CSS for admin chat control panel"
+msgstr ""
+
+#: core/mr-assistant-settings.php:323
+msgid ".mr-container{}"
+msgstr ""
+
+#: core/mr-assistant-settings.php:330
+msgid "Add Custom Font for admin chat control panel"
+msgstr ""
+
+#: core/mr-assistant-settings.php:348
+msgid "Chat Intro Message"
+msgstr ""
+
+#: core/mr-assistant-settings.php:349
+msgid ""
+"This Intro message will appear on public facing chst widget when someone "
+"browsing your website."
+msgstr ""
+
+#: core/mr-assistant-settings.php:350
+msgid "Add Intro message"
+msgstr ""
+
+#: core/mr-assistant-settings.php:358
+msgid "Set Intro box width 330px to 380px."
+msgstr ""
+
+#: core/mr-assistant-settings.php:369
+msgid "Online Message"
+msgstr ""
+
+#: core/mr-assistant-settings.php:370
+msgid "Set Message to notify visitors when you are Online."
+msgstr ""
+
+#: core/mr-assistant-settings.php:371
+msgid "Add Online status"
+msgstr ""
+
+#: core/mr-assistant-settings.php:378
+msgid "Offline Message"
+msgstr ""
+
+#: core/mr-assistant-settings.php:379
+msgid "Set Message to notify visitors when you are Offline."
+msgstr ""
+
+#: core/mr-assistant-settings.php:380
+msgid "Add Offline Message"
+msgstr ""
+
+#: core/mr-assistant-settings.php:387
+msgid "Message Input box Placeholder Text"
+msgstr ""
+
+#: core/mr-assistant-settings.php:388
+msgid ""
+"Set Placeholder Text for Message Input box for public facing chat interface."
+msgstr ""
+
+#: core/mr-assistant-settings.php:389
+msgid "Search & Message..."
+msgstr ""
+
+#: core/mr-assistant-settings.php:396
+msgid "Allow GDPR Compliance"
+msgstr ""
+
+#: core/mr-assistant-settings.php:397
+msgid ""
+"Visitors should acknowledge GDPR Compliance to start a new conversation."
+msgstr ""
+
+#: core/mr-assistant-settings.php:404
+msgid "GDPR Compliance"
+msgstr ""
+
+#: core/mr-assistant-settings.php:405
+msgid "Textarea description"
+msgstr ""
+
+#: core/mr-assistant-settings.php:406
+msgid "Add Custom CSS"
+msgstr ""
+
+#: core/mr-assistant-settings.php:413
+msgid "Privacy policy URL"
+msgstr ""
+
+#: core/mr-assistant-settings.php:414
+msgid "Add your website privacy policy URL."
+msgstr ""
+
+#: core/mr-assistant-settings.php:424
+msgid "Show Image in Template"
+msgstr ""
+
+#: core/mr-assistant-settings.php:425
+msgid "Enable this option to show image on the template."
+msgstr ""
+
+#: core/mr-assistant-settings.php:432
+msgid "Show Title in Template"
+msgstr ""
+
+#: core/mr-assistant-settings.php:433
+msgid "Enable this option to show Title on the template."
+msgstr ""
+
+#: core/mr-assistant-settings.php:440
+msgid "Show Content in Template"
+msgstr ""
+
+#: core/mr-assistant-settings.php:441
+msgid "Enable this option to show Content on the template."
+msgstr ""
+
+#: core/mr-assistant-settings.php:448
+msgid "Show Action in Template"
+msgstr ""
+
+#: core/mr-assistant-settings.php:449
+msgid ""
+"Enable this option to view Actions(Add to Cart, View Details, price) on the "
+"template."
+msgstr ""
+
+#: core/mr-assistant-settings.php:456
+msgid "Card Background Color"
+msgstr ""
+
+#: core/mr-assistant-settings.php:457
+msgid ""
+"Choose template replay card background color. Reply card will appear when "
+"Mr. Assistant find any result."
+msgstr ""
+
+#: core/mr-assistant-settings.php:464
+msgid "Card Font Color"
+msgstr ""
+
+#: core/mr-assistant-settings.php:465
+msgid "Choose template replay card font color. "
+msgstr ""
+
+#: core/mr-assistant-settings.php:474
+msgid "Project ID*"
+msgstr ""
+
+#: core/mr-assistant-settings.php:475
+msgid "Add Project ID of your Firebase project."
+msgstr ""
+
+#: core/mr-assistant-settings.php:476
+msgid "Add Project ID"
+msgstr ""
+
+#: core/mr-assistant-settings.php:483
+msgid "Web API Key*"
+msgstr ""
+
+#: core/mr-assistant-settings.php:484
+msgid "Add Web API Key of your Firebase project."
+msgstr ""
+
+#: core/mr-assistant-settings.php:485
+msgid "Add Web API Key"
+msgstr ""
+
+#: core/mr-assistant-settings.php:506
+msgid "Virtual Assistant Status"
+msgstr ""
+
+#: core/mr-assistant-settings.php:507
+msgid "This is on/off option for Virtual Assistant."
+msgstr ""
+
+#: core/mr-assistant-settings.php:518
+msgid "Virtual Assistant Name"
+msgstr ""
+
+#: core/mr-assistant-settings.php:519
+msgid "Add Virtual Assistant Name"
+msgstr ""
+
+#: core/mr-assistant-settings.php:527
+msgid "Virtual Assistant ICON"
+msgstr ""
+
+#: core/mr-assistant-settings.php:528
+msgid ""
+"Virtual Assistant ICON will appear as chatbot ICON everywhere but not as "
+"chatbot menu ICON. You can add an image/icon URL from media library or "
+"different sources."
+msgstr ""
+
+#: core/mr-assistant-settings.php:538
+msgid "Virtual Assistant Menu ICON"
+msgstr ""
+
+#: core/mr-assistant-settings.php:539
+msgid ""
+"Virtual Assistant Menu ICON will appear only as chatbot menu ICON. You can "
+"add an image/icon URL from media library or different sources."
+msgstr ""
+
+#: core/mr-assistant-settings.php:551
+msgid "Developer Mode"
+msgstr ""
+
+#: core/mr-assistant-settings.php:552
+msgid "Enable Developer Mode on public facing chat widget."
+msgstr ""
+
+#: core/mr-assistant-settings.php:559
+msgid "Admin Developer Mode"
+msgstr ""
+
+#: core/mr-assistant-settings.php:560
+msgid "Enable Developer Mode on admin chat control panel."
+msgstr ""
+
+#: core/mr-assistant-settings.php:567
+msgid "Command Line Mode"
+msgstr ""
+
+#: core/mr-assistant-settings.php:568
+msgid "Command Line Mode on public facing chat widget."
+msgstr ""
+
+#: core/mr-assistant-settings.php:580
+msgid ""
+"System will block Admin when they try to chat as anonymous client. You need "
+"to use this command to enable admin chat as anonymous client."
+msgstr ""
+
+#: libs/updater/Puc/v4p9/Plugin/Ui.php:54
+msgid "View details"
+msgstr ""
+
+#: libs/updater/Puc/v4p9/Plugin/Ui.php:77
+#, php-format
+msgid "More information about %s"
+msgstr ""
+
+#: libs/updater/Puc/v4p9/Plugin/Ui.php:128
+msgid "Check for updates"
+msgstr ""
+
+#: libs/updater/Puc/v4p9/Plugin/Ui.php:213
+#, php-format
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr ""
+
+#: libs/updater/Puc/v4p9/Plugin/Ui.php:215
+#, php-format
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr ""
+
+#: libs/updater/Puc/v4p9/Plugin/Ui.php:217
+#, php-format
+msgctxt "the plugin title"
+msgid "Could not determine if updates are available for %s."
+msgstr ""
+
+#: libs/updater/Puc/v4p9/Plugin/Ui.php:223
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr ""
+
+#: libs/updater/Puc/v4p9/Vcs/PluginUpdateChecker.php:98
+msgid "There is no changelog available."
+msgstr ""
